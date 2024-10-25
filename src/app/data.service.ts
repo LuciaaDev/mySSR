@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 }) 
 export class DataService {
     private readonly _http = inject(HttpClient);
-    private readonly _apiUrl = 'https://fakestoreapi.com/products/1';
+    private readonly _apiUrl = 'https://fakestoreapi.com/products/';
 
 
     getProduct():Observable<any> {
